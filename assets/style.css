@@ -317,6 +317,26 @@ h2::after {
   position: relative;
 }
 
+.bg-warm {
+  background: linear-gradient(135deg, #fffcf5 0%, #fff7ed 100%);
+  position: relative;
+}
+
+.bg-warm::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(245, 158, 11, 0.2),
+    transparent
+  );
+}
+
 .bg-pink::before {
   content: "";
   position: absolute;
