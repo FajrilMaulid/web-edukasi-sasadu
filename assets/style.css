@@ -195,9 +195,9 @@ nav {
       rgba(217, 70, 239, 0.9) 50%,
       rgba(139, 92, 246, 0.85) 100%
     ),
-    url("https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=1600&h=900&fit=crop");
+    url("img/background.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-attachment: fixed;
   min-height: 85vh;
   display: flex;

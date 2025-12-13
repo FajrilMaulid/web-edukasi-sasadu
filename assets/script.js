@@ -118,15 +118,15 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(el);
   });
 
-  // --- PARALLAX EFFECT ON HERO ---
-  const hero = document.querySelector(".hero");
-  if (hero) {
-    window.addEventListener("scroll", () => {
-      const scrolled = window.pageYOffset;
-      const parallax = scrolled * 0.5;
-      hero.style.backgroundPositionY = parallax + "px";
-    });
-  }
+  // --- PARALLAX EFFECT ON HERO (DISABLED to keep background position fixed) ---
+  // const hero = document.querySelector(".hero");
+  // if (hero) {
+  //   window.addEventListener("scroll", () => {
+  //     const scrolled = window.pageYOffset;
+  //     const parallax = scrolled * 0.5;
+  //     hero.style.backgroundPositionY = parallax + "px";
+  //   });
+  // }
 
   // --- ADD HOVER SOUND FEEDBACK (Optional - subtle) ---
   const buttons = document.querySelectorAll(".btn, .tab-btn, .card");
